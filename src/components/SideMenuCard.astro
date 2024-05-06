@@ -1,0 +1,16 @@
+---
+import type { Playlist } from "@/lib/data";
+
+interface Props{
+    playlist:Playlist;
+}
+
+const {playlist}=Astro.props
+const {id,cover,title,artists,color}=playlist
+
+const astistString=artists.join(",")
+---
+
+<a href={`/playlist/${id}`} 
+class="playlist-item flex relative p-2 overflow-hidden">
+</a>
