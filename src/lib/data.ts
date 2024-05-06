@@ -22,11 +22,11 @@ export const playlists: Playlist[] = [
   {
     id: '2',
     albumId: 2,
-    title: "Lo-Fi Chill Session",
-    color: colors.green,
+    title: "Cowboy Bebop",
+    color: colors.red,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187",
-    artists: ["Kupla", "Blue Fox"],
+      "https://i.scdn.co/image/ab67616d0000b273e90a54d6e31d9ff3f1d566fa",
+    artists: ["SEATBELTS"],
   },
   {
     id: '3',
